@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_4SimplifyingConditional</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01. Decompose Conditional\" />
+    <Folder Include="02. Consolidate Conditional Expression\" />
+    <Folder Include="03. Consolidate Duplicate Conditional Fragments\" />
+    <Folder Include="04. Remove Control Flag\" />
+    <Folder Include="05. Replace Nested Conditional with Guard Clauses\" />
+    <Folder Include="06. Introduce Null Object\" />
+    <Folder Include="07. Refactoring Session\" />
+    <Folder Include="08. Practice\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_5MakingMethodCallsSimpler</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01. Add Parameter\" />
+    <Folder Include="02. Remove Parameter\" />
+    <Folder Include="04. Parameterize Method\" />
+    <Folder Include="05. Replace Parameter with Explicit Methods\" />
+    <Folder Include="06. Preserve Whole Object\" />
+    <Folder Include="03. Introduce Parameter Object\" />
+    <Folder Include="08. Replace Exception with If Statement\" />
+    <Folder Include="07. Replace Parameter with Method\" />
+    <Folder Include="09. Refactoring Session\" />
+    <Folder Include="10. Practice\" />
+  </ItemGroup>
+</Project>

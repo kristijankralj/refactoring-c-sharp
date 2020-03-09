@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_2MovingFeatures</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="02. Move Method\" />
+    <Folder Include="01. Move Field\" />
+    <Folder Include="03. Extract Class\" />
+    <Folder Include="04. Inline Class\" />
+    <Folder Include="05. Hide Delegate\" />
+    <Folder Include="06. Remove Middle Man\" />
+    <Folder Include="07. Introduce Extension Method\" />
+    <Folder Include="08. Refactoring Session\" />
+    <Folder Include="09. Practice\" />
+  </ItemGroup>
+</Project>

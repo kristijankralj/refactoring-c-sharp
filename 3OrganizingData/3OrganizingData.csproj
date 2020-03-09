@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_3OrganizingData</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ChangeUnidirectionalAssociationToBidirectional.cs" />
+    <Compile Remove="EncapsulateField.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01. Replace Array with Object\" />
+    <Folder Include="02. Replace Magic Number with Symbolic Constant\" />
+    <Folder Include="03. Replace Type Code with Enum\" />
+    <Folder Include="04. Replace Type Code with Subclasses\" />
+    <Folder Include="05. Replace Type Code with StateStrategy\" />
+    <Folder Include="07. Replace Subclass with Fields\" />
+    <Folder Include="08. Refactoring Session\" />
+    <Folder Include="09. Practice\" />
+    <Folder Include="06. Replace Conditional with Polymorphism\" />
+  </ItemGroup>
+</Project>

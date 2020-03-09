@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_1ComposingMethods</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="04. Replace Temp with Query\Ship.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01. Extract Method\" />
+    <Folder Include="02. Inline Method\" />
+    <Folder Include="03. Inline Temp\" />
+    <Folder Include="05. Replace Temp with Query\" />
+    <Folder Include="06. Split Temporary Variable\" />
+    <Folder Include="04. Remove Assignments to Parameters\" />
+    <Folder Include="07. Replace Method with Method Object\" />
+    <Folder Include="08. Refactoring Session\" />
+    <Folder Include="09. Practice\" />
+    <Folder Include="00. Quick Win\" />
+  </ItemGroup>
+</Project>
